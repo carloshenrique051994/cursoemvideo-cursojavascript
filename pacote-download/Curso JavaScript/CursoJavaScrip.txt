@@ -1,0 +1,20 @@
+Intalações curso java script:
+Node : ( https://nodejs.org/en/download/ )
+vs code : ( https://code.visualstudio.com/Download )
+
+Extensões vs Code:
+- runner (Executa o codigo com CTRL + ALT + N direto no Vs Code ao inves de ter que executar
+ no node, no caso teria que digitar node NomeDoArquivo.js para ver a saida).
+
+teclas rapidas no vs code:
+- CTRL + ALT + N (Abrir Terminal no vs CODE)
+
+Codigo CMD:
+- code .
+
+Comentarios JS:
+- /* multiplas lihas */
+-/*
+* multiplas lihas
+* multiplas lihas
+*/
