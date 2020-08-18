@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Cadastro de nacionalidade</h1>
+    <h3>Bem Vindo ao BRASIL</h3>
+    Qual o seu Pais: <input type="text" name="pais" id="pais">
+    <input type="button" value="Registrar" onclick="resultado()">
+    <div id="res">
+
+    </div>
+    <script>
+        function resultado() {
+            var paisv = document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            var nacionalidade = (paisv.value)
+            
+            if (nacionalidade == 'Brasil') {
+                res.innerHTML = `Bem vindo de volta!!!`
+            } else {
+                res.innerHTML = `Bem vindo ao Brasil, sinta-se como se estivesse no/na ${nacionalidade}!!!`
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

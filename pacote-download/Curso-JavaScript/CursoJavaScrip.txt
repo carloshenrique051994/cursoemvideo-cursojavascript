@@ -1,0 +1,25 @@
+Intalações curso java script:
+Node : ( https://nodejs.org/en/download/ )
+vs code : ( https://code.visualstudio.com/Download )
+
+Extensões vs Code:
+- runner (Executa o codigo com CTRL + ALT + N direto no Vs Code ao inves de ter que executar no node, no caso teria que digitar node NomeDoArquivo.js para ver a saida).
+ - live server - vs code e no chrome ou navegador que tiver usando.
+- node exec - Rodar javascript pelo node.
+
+teclas rapidas no vs code:
+- CTRL + ALT + N (Abrir Terminal no vs CODE)
+- CTRL + SHIFT + P (ABRIR MENU PARA FERRAMENTAS E INTEGRACOES)
+
+Codigo CMD:
+- code .
+
+Comentarios JS:
+- /* multiplas lihas */
+-/*
+* multiplas lihas
+* multiplas lihas
+*/
+
+LIVE SERVER
+- CTRL + SHIFT + P - digitar LIVE SERVER e escolher a opcao de abri-lo
